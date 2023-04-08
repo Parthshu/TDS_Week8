@@ -1,1 +1,31 @@
+import streamlit as st
+import pandas as pd
+import pickle
+
+st.write("""
+# Find Largest Number
+
+This app gives largest number from given three input numbers
+""")
+
+st.header('User Input Parameters')
+
+def user_input_features():
+    first_number = st.number_input("Enter the first number and press Enter",step=1)
+    second_number = st.number_input("Enter the second number and press Enter",step=1)
+    third_number = st.number_input("Enter the third number and press Enter",step=1)
+
+    data = [first_number,second_number,third_numbe]
+    return data
+ 
+df = user_input_features()
+max_number = max(data)
+
+st.header('Result')
+st.subheader(f'The Largest among the three numbers is {max_number}.')
+
+
+
+
+
 
