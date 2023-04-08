@@ -24,7 +24,7 @@ df = user_input_features()
 max_number = max(df['Numbers'])
 
 st.header('Result')
-st.subheader(f'The Largest among the three numbers is {max_number}.')
+st.subheader(f'The Largest among the three numbers is :blue[{max_number}].')
 
 
 
