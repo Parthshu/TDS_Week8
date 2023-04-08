@@ -15,7 +15,7 @@ def user_input_features():
     second_number = st.number_input("Enter the second number and press Enter",step=1)
     third_number = st.number_input("Enter the third number and press Enter",step=1)
 
-    data = [first_number,second_number,third_numbe]
+    data = [first_number,second_number,third_number]
     return data
  
 df = user_input_features()
