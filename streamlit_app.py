@@ -8,7 +8,7 @@ st.write("""
 This app gives largest number from given three input numbers
 """)
 
-st.header('User Input Parameters')
+st.header(':red[User Input Parameters]')
 
 def user_input_features():
     
@@ -23,7 +23,7 @@ def user_input_features():
 df = user_input_features()
 max_number = max(df['Numbers'])
 
-st.header('Result')
+st.header(':red[Result]')
 st.subheader(f'The Largest among the three numbers is :blue[{max_number}].')
 
 
