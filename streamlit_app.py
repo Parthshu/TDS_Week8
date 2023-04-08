@@ -21,7 +21,7 @@ def user_input_features():
     return data
  
 df = user_input_features()
-max_number = max(data['Numbers'])
+max_number = max(df['Numbers'])
 
 st.header('Result')
 st.subheader(f'The Largest among the three numbers is {max_number}.')
